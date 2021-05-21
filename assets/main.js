@@ -2,20 +2,11 @@ var canvas=document.getElementById("mycanvas");
 var ctx=canvas.getContext("2d");
 
 
-/*ctx.moveTo(300,0);
+ctx.moveTo(300,0);
 ctx.lineTo(50,50);
 ctx.stroke();
 
-ctx.moveTo(300,150);
-ctx.lineTo(50,50);
-ctx.stroke();
-ctx.moveTo(0,0);
-ctx.lineTo(50,50);
-ctx.stroke();
 
-ctx.moveTo(0,150);
-ctx.lineTo(50,50);
-ctx.stroke();*/
 
 ctx.beginPath();
     ctx.moveTo(175, 50);
